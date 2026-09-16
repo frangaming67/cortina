@@ -8,6 +8,8 @@ Primera versión: diseño y simulación en computadora. **Todavía no controla m
 
 El usuario estima unos **3 metros al enchufe** y describe la cadena como **algo dura**. La batería es una alternativa aceptable para él. Priorizamos medir la fuerza: no se considera validado el 28BYJ-48 para levantar esta cortina.
 
+Para avanzar sin dinamómetro, el usuario propuso dimensionar con **2 kgf de tracción supuesta**. La [selección preliminar de motor](docs/motor.md) propone un Pololu 37D de 12 V, 100:1, con rueda de diámetro efectivo cercano a 3 cm. Ese supuesto no es una medición ni una validación del montaje.
+
 La caja fotografiada corresponde al Freenove RFID Starter Kit **FNK0025**. El usuario tiene el kit, pero ninguna placa programable. Proponemos una placa de desarrollo ESP32 con Wi-Fi; el modelo exacto se decidirá antes del cableado. No hace falta una Raspberry Pi para esta arquitectura.
 
 ## Cómo funcionaría

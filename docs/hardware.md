@@ -11,6 +11,7 @@
 | Driver del paso a paso | Placa con IN1–IN7, conector blanco y cuatro LED; chip bajo bolsa reflectante | Parece ULN2003; confirmar inscripción y conexiones |
 | Enchufe | Aproximadamente 3 metros, según el usuario | Cable de baja tensión o batería; ambas alternativas abiertas |
 | Esfuerzo de subida | El usuario describe la cadena como «medio dura» | Medir fuerza; aumenta la posibilidad de necesitar un motor más potente |
+| Hipótesis posterior de dimensionamiento | El usuario pide seleccionar con 2 kg de esfuerzo supuesto | Se interpreta como 2 kgf de tracción; ver [motor propuesto](motor.md) |
 | Hora de apertura | Confirmada por el usuario | 08:00 todos los días |
 
 ## Inventario observado en las nuevas fotos
@@ -82,7 +83,7 @@ El primer ensayo se hará sobre la mesa con 5 V regulados y sin la cadena; despu
 
 La descripción «medio dura» no permite calcular torque, pero hace menos favorable usar directamente el pequeño 28BYJ-48. Se conserva para ensayos de programación. Para el montaje final, evaluar un motorreductor con torque suficiente a la velocidad de trabajo, junto con su driver y alimentación, después de medir. Una reducción adicional puede aumentar fuerza a cambio de lentitud y pérdidas; no garantiza que este motor resulte práctico.
 
-Comprobar primero que la cadena no roce o se trabe y que los soportes estén firmes. Si hay balanza de equipaje, seguir la medición de fuerza de este documento y registrar el máximo. Si no hay, dejar el torque como pendiente y conseguir una prestada antes de elegir el motor final. No deducir la fuerza sólo del tamaño de la cortina ni probar motores empujando contra el tope.
+Comprobar primero que la cadena no roce o se trabe y que los soportes estén firmes. El usuario no tiene dinamómetro y pidió avanzar suponiendo 2 kgf: no se exige conseguir uno para la selección preliminar. La fuerza real sigue sin medirse y la validación será con el conjunto supervisado. No deducir la fuerza sólo del tamaño de la cortina ni probar motores empujando contra el tope. Ver [cálculo y motor propuesto](motor.md).
 
 ## Fuentes
 
