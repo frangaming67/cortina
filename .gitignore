@@ -12,3 +12,7 @@ photos/
 *.jpg
 *.png
 .DS_Store
+node_modules/
+dist/
+.sites-runtime/
+.sites-artifacts/

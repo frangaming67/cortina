@@ -1,0 +1,14 @@
+{
+  "name": "cortina-lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite web --host 127.0.0.1",
+    "build": "vite build web --outDir ../dist",
+    "preview": "vite preview web --outDir ../dist --host 127.0.0.1",
+    "test": "node --test web/tests/*.test.js"
+  },
+  "dependencies": { "three": "0.180.0" },
+  "devDependencies": { "vite": "7.1.5" }
+}
