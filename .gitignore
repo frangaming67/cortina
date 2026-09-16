@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+secrets.py
+config.local.*
+state*.json
+photos/
+*.jpeg
+*.jpg
+*.png
+.DS_Store
