@@ -4,7 +4,9 @@ Proyecto DIY para abrir una cortina roller con cadena de bolitas **todos los dí
 
 ## Estado
 
-Primera versión: diseño y simulación en computadora. **Todavía no controla motores**. Falta identificar los componentes disponibles, medir la fuerza de la cadena y elegir placa, motor, fuente y sensores. No hay firmware listo para instalar ni cableado definitivo.
+Primera versión: diseño y simulación en computadora. **Todavía no controla motores**. Las nuevas fotos confirman un paso a paso **28BYJ-48 de 5 V**, candidato para pruebas, además de un microservo y un motor DC. Falta medir la fuerza de la cadena y elegir placa, alimentación y sensores. El enchufe está lejos; comparamos cable de baja tensión y batería en la [guía de hardware](docs/hardware.md). No hay firmware listo para instalar ni cableado definitivo.
+
+El usuario estima unos **3 metros al enchufe** y describe la cadena como **algo dura**. La batería es una alternativa aceptable para él. Priorizamos medir la fuerza: no se considera validado el 28BYJ-48 para levantar esta cortina.
 
 La caja fotografiada corresponde al Freenove RFID Starter Kit **FNK0025**. El usuario tiene el kit, pero ninguna placa programable. Proponemos una placa de desarrollo ESP32 con Wi-Fi; el modelo exacto se decidirá antes del cableado. No hace falta una Raspberry Pi para esta arquitectura.
 
@@ -41,7 +43,7 @@ El modelo registra el intento antes de iniciar el movimiento para evitar repetir
 
 ## Próximos pasos
 
-1. Identificar motores y módulos del kit con sus etiquetas visibles.
+1. Confirmar la inscripción del driver fuera de su bolsa; el 28BYJ-48 de 5 V ya está identificado.
 2. Completar [las mediciones](docs/hardware.md), incluyendo fuerza, cadena y recorrido.
 3. Elegir placa, motor, driver y fuente en función de esas mediciones.
 4. Probar motor y sensores sobre la mesa, sin acoplar la cortina.
